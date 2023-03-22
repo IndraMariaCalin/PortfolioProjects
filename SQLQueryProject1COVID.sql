@@ -1,13 +1,19 @@
---- I will start by saying that this project took me several weeks as I encountered several problems:
+/*
+Covid 19 Data Exploration 
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+*/
 
---Problem 1. MS SQL did not let me upload the excel files, I uninstalled the server, installed it, followed all 
---the steps taken by other people that had this problem and still could not upload it.
--- What worked for me was to save the Excel files as CSV and upload it as a flat file but from the Tasks -> Import Data 
--- -> Flat File Source. 
---This allowed me to finally upload the data.
+I will start by saying that this project took me several weeks as I encountered several problems:
 
---Problem 2. When uploaded, all the data was as (varchar(50)) -> this caused me several problems when it came 
--- to calculations. I ended up changing that data type myself.
+Problem 1. MS SQL did not let me upload the excel files, I uninstalled the server, installed it, followed all the steps taken by other 
+people that had this problem and still could not upload it.
+What worked for me was to save the Excel files as CSV and upload it as a flat file but from the Tasks -> Import Data -> Flat File Source. 
+
+This allowed me to finally upload the data.
+
+Problem 2. When uploaded, all the data was as (varchar(50)) -> this caused me several problems when it came to calculations. 
+I ended up changing that data type myself.
+
 
 --Change of data type (I am aware you can use other ways, but this seemed easier to me as the time)
 
